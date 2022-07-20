@@ -1,0 +1,158 @@
+body {
+    font: 100% Lucida Sans, Verdana;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.bungkusan {
+    min-width: 900px;
+    min-height: 900px;
+}
+
+.khusus {
+    position: relative;
+    overflow: auto;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+/* bagian header */
+#header {
+    
+    background-color: #F7E2E2;
+    color: black;
+    padding: 5px;
+    margin: 0px;
+
+    text-align: center;
+}
+
+#header p{
+
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+#decor{
+    text-decoration-line: overline;
+    text-decoration-color: #61A4BC;
+    text-decoration-style: dotted;
+    font-style: italic;
+}
+
+
+/* bagian menu */
+#menu {
+    
+    background-color: #5B7DB1;
+    color: #ffffff;
+    padding: 5px;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+    border: 2px solid #1A132F ;
+    margin: 3px;
+    background-color: #1A132F;
+}
+
+#kanan{
+    float: right;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+li a:hover {
+    background-color: #5B7DB1;
+}
+
+/* bagian main */
+/* #main {
+
+    background-color: #5B7DB1;
+    color: #ffffff;
+    padding: 5px;
+    margin: 0px;
+} */
+
+/* bagian footer */
+
+#bottom {
+
+    background-color: #1A132F;
+    color: #ffffff;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* atur tabel */
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit],input[type=reset],input[type=button]{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover,
+input[type=reset]:hover,
+input[type=button]:hover {
+    background-color: #45a049;
+}
+
+
+#form {
+    background-color:#61A4BC;
+    padding: 20px;
+}
+
+#alret{
+    text-align: center;
+    font-family: monospace;
+    font-size: 35px;
+    font-style: solid;
+}
